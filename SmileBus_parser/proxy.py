@@ -4,7 +4,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
-# Ссылка на список прокси (обновляется раз в ~24 часа)
 PROXY_URL = "https://advanced.name/freeproxy/6adf909473849"
 
 
