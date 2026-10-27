@@ -1,8 +1,3 @@
-# Лабораторная работа №2, вариант 8
-# Программа собирает билеты с сайта smilebus.by (Минск - Мозырь и Минск - Речица),
-# для каждого билета "туда" берёт ещё и обратный через неделю,
-# потом чистит данные и сохраняет всё в csv. Все действия пишутся в log.txt
-
 import re
 import time
 import random
@@ -16,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# from proxy_finder import find_working_proxy
+# from proxy.py import find_working_proxy
 
 # Названия городов в ссылках на сайте пишутся по-английски
 CITIES = {"Минск": "minsk", "Мозырь": "mozyr", "Речица": "rechica"}
